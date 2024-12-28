@@ -45,33 +45,14 @@ export default function ChatScreen() {
       }}
     >
       <View className="px-4">
-        <Text className="uppercase font-semibold text-neutral-500 tracking-wider">
+        <Text className="uppercase font-semibold text-white tracking-wider">
           Matches
         </Text>
       </View>
-      {/* <Matches /> */}
-
-      {/* Search Bar */}
-      <View className="mx-4 mt-6 flex-row items-center rounded-2xl bg-neutral-200 px-3 py-4">
-        <TextInput
-          placeholder="Search"
-          placeholderTextColor={"gray"}
-          style={{
-            fontSize: hp(1.7),
-          }}
-          className="flex-1 text-base mb-1 pl-1 tracking-widest"
-        />
-
-        <View className="">
-          {/* <MagnifyingGlassIcon size={hp(2.5)} color={"gray"} strokeWidth={3} /> */}
-        </View>
-      </View>
-
-      {/* Chat List */}
 
       <View className="px-4">
         <View className="border-b border-neutral-300 py-4">
-          <Text className="uppercase font-semibold text-neutral-500 tracking-wider ">
+          <Text className="uppercase font-semibold text-white tracking-wider ">
             CHAT
           </Text>
         </View>
